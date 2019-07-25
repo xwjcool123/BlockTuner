@@ -11,5 +11,5 @@ execute store result entity @e[tag=bt_pointer,limit=1] Pos[0] double 1 run score
 execute store result entity @e[tag=bt_pointer,limit=1] Pos[1] double 1 run scoreboard players get @p[tag=bt_tuner] _bt_y
 execute store result entity @e[tag=bt_pointer,limit=1] Pos[2] double 1 run scoreboard players get @p[tag=bt_tuner] _bt_z
 
-#Detect block change in multyplayer. When no longer note block, stop the process
+#Detect the block change in multyplayer. Break the process when no longer note block
 execute as @e[tag=bt_pointer] at @s unless block ~ ~ ~ minecraft:note_block run kill @s

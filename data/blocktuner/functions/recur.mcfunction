@@ -1,5 +1,5 @@
-#Step length, lower values give a higher precision, performance may suffer
-tp @s ^ ^ ^0.05
+#Step length. Lower values give a higher precision (performance may suffer)
+tp @s ^ ^ ^0.04
 
 #Check note block, mark it when true
 execute at @s if block ~ ~ ~ note_block align xyz run function blocktuner:recur_mark

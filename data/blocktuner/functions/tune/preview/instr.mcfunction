@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:note_block[instrument=banjo] run function blocktuner:tune/preview/banjo
+execute if block ~ ~ ~ minecraft:note_block[instrument=basedrum] run function blocktuner:tune/preview/kick
+execute if block ~ ~ ~ minecraft:note_block[instrument=bass] run function blocktuner:tune/preview/bass
+execute if block ~ ~ ~ minecraft:note_block[instrument=bell] run function blocktuner:tune/preview/bell
+execute if block ~ ~ ~ minecraft:note_block[instrument=bit] run function blocktuner:tune/preview/bit
+execute if block ~ ~ ~ minecraft:note_block[instrument=chime] run function blocktuner:tune/preview/chime
+execute if block ~ ~ ~ minecraft:note_block[instrument=cow_bell] run function blocktuner:tune/preview/cowbell
+execute if block ~ ~ ~ minecraft:note_block[instrument=didgeridoo] run function blocktuner:tune/preview/didgeridoo
+execute if block ~ ~ ~ minecraft:note_block[instrument=flute] run function blocktuner:tune/preview/flute
+execute if block ~ ~ ~ minecraft:note_block[instrument=guitar] run function blocktuner:tune/preview/guitar
+execute if block ~ ~ ~ minecraft:note_block[instrument=harp] run function blocktuner:tune/preview/harp
+execute if block ~ ~ ~ minecraft:note_block[instrument=hat] run function blocktuner:tune/preview/click
+execute if block ~ ~ ~ minecraft:note_block[instrument=iron_xylophone] run function blocktuner:tune/preview/vibe
+execute if block ~ ~ ~ minecraft:note_block[instrument=pling] run function blocktuner:tune/preview/pling
+execute if block ~ ~ ~ minecraft:note_block[instrument=snare] run function blocktuner:tune/preview/snare
+execute if block ~ ~ ~ minecraft:note_block[instrument=xylophone] run function blocktuner:tune/preview/xylophone

@@ -13,3 +13,6 @@ execute store result entity @e[tag=bt_pointer,limit=1] Pos[2] double 1 run score
 
 #Detect the block change in multyplayer. Break the process when no longer note block
 execute as @e[tag=bt_pointer] at @s unless block ~ ~ ~ minecraft:note_block run kill @s
+
+#Playsound coord offset
+execute as @e[tag=bt_pointer] at @s run tp @s ~0.5 ~0.5 ~0.5

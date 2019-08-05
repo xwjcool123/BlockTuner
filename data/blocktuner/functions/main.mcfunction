@@ -8,11 +8,14 @@ execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block"}}] at @
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block"}}] at @s if block ~ ~ ~ minecraft:cauldron run function blocktuner:remove_tune
 
 #Detect note blocks
-execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] at @s anchored eyes run function blocktuner:indicator
-execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:note_block"}]}] unless data entity @s {SelectedItem:{id:"minecraft:note_block"}} at @s anchored eyes run function blocktuner:indicator
-execute as @a[nbt={SelectedItem:{id:"minecraft:debug_stick",tag:{DebugProperty:{"minecraft:note_block":"note"}}}}] unless data entity @s {Inventory:[{Slot:-106b,id:"minecraft:note_block"}]} at @s anchored eyes run function blocktuner:indicator
-execute as @a[nbt={SelectedItem:{id:"minecraft:writable_book"}}] at @s anchored eyes run function blocktuner:indicator
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{title:"Ghost Item",author:"serious xwjcool"}}}] at @s anchored eyes run function blocktuner:indicator
+execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] run tag @s add bt_recur_start
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:note_block"}]}] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:debug_stick",tag:{DebugProperty:{"minecraft:note_block":"note"}}}}] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:writable_book"}}] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{title:"Ghost Item",author:"serious xwjcool"}}}] run tag @s add bt_recur_start
+
+execute as @a[tag=bt_recur_start] at @s anchored feet positioned ^ ^ ^ run function blocktuner:recur
+tag @s remove bt_recur_start
 
 #Hover text
 execute as @e[tag=bt_selected] at @s unless entity @e[tag=bt_indicator,distance=..0.5] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:[bt_indicator],Fire:32767s}

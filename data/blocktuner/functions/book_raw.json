@@ -12,7 +12,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_0"
+		"value": "/trigger _bt_note set 0"
 	}
 }, {
 	"text": "§7█",
@@ -22,7 +22,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_1"
+		"value": "/trigger _bt_note set 1"
 	}
 }, {
 	"text": "§0█",
@@ -32,7 +32,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_2"
+		"value": "/trigger _bt_note set 2"
 	}
 }, {
 	"text": "§7█",
@@ -42,7 +42,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_3"
+		"value": "/trigger _bt_note set 3"
 	}
 }, {
 	"text": "§0█",
@@ -52,7 +52,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_4"
+		"value": "/trigger _bt_note set 4"
 	}
 }, {
 	"text": "§7█",
@@ -62,7 +62,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_5"
+		"value": "/trigger _bt_note set 5"
 	}
 }, {
 	"text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
@@ -74,7 +74,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_6"
+		"value": "/trigger _bt_note set 6"
 	}
 }, {
 	"text": "§0█",
@@ -84,7 +84,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_7"
+		"value": "/trigger _bt_note set 7"
 	}
 }, {
 	"text": "§7█",
@@ -94,7 +94,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_8"
+		"value": "/trigger _bt_note set 8"
 	}
 }, {
 	"text": "§0█",
@@ -104,7 +104,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_9"
+		"value": "/trigger _bt_note set 9"
 	}
 }, {
 	"text": "§7█",
@@ -114,7 +114,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_10"
+		"value": "/trigger _bt_note set 10"
 	}
 }, {
 	"text": "§7█",
@@ -124,7 +124,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_11"
+		"value": "/trigger _bt_note set 11"
 	}
 }, {
 	"text": "§0█",
@@ -134,7 +134,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_12"
+		"value": "/trigger _bt_note set 12"
 	}
 }, {
 	"text": "§7█",
@@ -144,7 +144,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_13"
+		"value": "/trigger _bt_note set 13"
 	}
 }, {
 	"text": "§0█",
@@ -154,7 +154,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_14"
+		"value": "/trigger _bt_note set 14"
 	}
 }, {
 	"text": "§7█",
@@ -164,7 +164,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_15"
+		"value": "/trigger _bt_note set 15"
 	}
 }, {
 	"text": "§0█",
@@ -174,7 +174,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_16"
+		"value": "/trigger _bt_note set 16"
 	}
 }, {
 	"text": "§7█",
@@ -184,7 +184,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_17"
+		"value": "/trigger _bt_note set 17"
 	}
 }, {
 	"text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
@@ -196,7 +196,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_18"
+		"value": "/trigger _bt_note set 18"
 	}
 }, {
 	"text": "§0█",
@@ -206,7 +206,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_19"
+		"value": "/trigger _bt_note set 19"
 	}
 }, {
 	"text": "§7█",
@@ -216,7 +216,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_20"
+		"value": "/trigger _bt_note set 20"
 	}
 }, {
 	"text": "§0█",
@@ -226,7 +226,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_21"
+		"value": "/trigger _bt_note set 21"
 	}
 }, {
 	"text": "§7█",
@@ -236,7 +236,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_22"
+		"value": "/trigger _bt_note set 22"
 	}
 }, {
 	"text": "§7█",
@@ -246,7 +246,7 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_23"
+		"value": "/trigger _bt_note set 23"
 	}
 }, {
 	"text": "§0█",
@@ -256,8 +256,10 @@
 	},
 	"clickEvent": {
 		"action": "run_command",
-		"value": "/function blocktuner:tune/note_24"
+		"value": "/trigger _bt_note set 24"
 	}
 }, {
 	"text":"§7▒§0▒§7▒§0▒§7▒"
+}, {
+	"text":"§7▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▎▒"
 }]

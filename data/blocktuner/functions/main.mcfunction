@@ -2,6 +2,9 @@
 
 #Begin step
 scoreboard players set @a _bt_valid 0
+execute as @a[scores={_bt_note=0..24}] at @s run function blocktuner:tune/set_note
+scoreboard players set @a _bt_note -1
+scoreboard players enable @a _bt_note
 
 #Get or remove note
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block"}}] at @s if block ~ ~ ~ #blocktuner:senza_sord if block ~ ~-1 ~ minecraft:note_block run function blocktuner:dropper

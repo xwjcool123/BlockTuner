@@ -11,11 +11,11 @@ execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block"}}] at @
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block"}}] at @s if block ~ ~ ~ minecraft:cauldron run function blocktuner:remove_tune
 
 #Detect note blocks
-execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] run tag @s add bt_recur_start
-execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:note_block"}]}] run tag @s add bt_recur_start
-execute as @a[nbt={SelectedItem:{id:"minecraft:debug_stick",tag:{DebugProperty:{"minecraft:note_block":"note"}}}}] run tag @s add bt_recur_start
-execute as @a[nbt={SelectedItem:{id:"minecraft:writable_book"}}] run tag @s add bt_recur_start
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{title:"Ghost Item",author:"serious xwjcool"}}}] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}},gamemode=!spectator] run tag @s add bt_recur_start
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:note_block"}]},gamemode=!spectator] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:debug_stick",tag:{DebugProperty:{"minecraft:note_block":"note"}}}},gamemode=!spectator] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:writable_book"}},gamemode=!spectator] run tag @s add bt_recur_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{title:"Ghost Item",author:"serious xwjcool"}}},gamemode=!spectator] run tag @s add bt_recur_start
 
 execute as @a[tag=bt_recur_start] at @s anchored feet positioned ^ ^ ^ run function blocktuner:recur
 tag @s remove bt_recur_start

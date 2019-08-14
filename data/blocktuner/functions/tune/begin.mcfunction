@@ -1,5 +1,5 @@
 #Get previous output state
-execute store result score Global _bt_output_state run gamerule sendCommandFeedback
+#execute store result score Global _bt_output_state run gamerule sendCommandFeedback
 
 #Disable outbut
 gamerule sendCommandFeedback false

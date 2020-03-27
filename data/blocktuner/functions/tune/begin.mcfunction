@@ -2,7 +2,7 @@
 #execute store result score Global _bt_output_state run gamerule sendCommandFeedback
 
 #Disable outbut
-gamerule sendCommandFeedback false
+#gamerule sendCommandFeedback false
 
 #Pointer
 tag @s add bt_tuner

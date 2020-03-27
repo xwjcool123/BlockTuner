@@ -5,6 +5,9 @@ scoreboard objectives add _bt_x dummy
 scoreboard objectives add _bt_y dummy
 scoreboard objectives add _bt_z dummy
 scoreboard objectives add _bt_output_state dummy
+scoreboard objectives add _bt_get dummy
+scoreboard objectives add _bt_scroll dummy
+scoreboard objectives add _bt_dscroll dummy
 scoreboard objectives add _bt_note trigger {"text":"Note Change"}
 
 #Display info

@@ -24,6 +24,7 @@ execute as @a[tag=bt_recur_start] at @s anchored feet positioned ^ ^ ^ run funct
 tag @s remove bt_recur_start
 
 #Hover text
+execute as @e[tag=bt_selected] at @s unless entity @e[tag=bt_indicator,distance=..0.5] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:[bt_indicator],Fire:32767s}
 execute as @e[tag=bt_indicator] at @s run function blocktuner:indicate
 
 #Tune with a book

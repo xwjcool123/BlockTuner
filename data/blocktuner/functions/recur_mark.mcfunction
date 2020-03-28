@@ -8,12 +8,7 @@ execute store result score @p[tag=bt_recur_start,scores={_bt_sneak=1}] _bt_y run
 execute store result score @p[tag=bt_recur_start,scores={_bt_sneak=1}] _bt_z run data get entity @e[tag=bt_position,limit=1] Pos[2]
 execute as @p[tag=bt_recur_start,scores={_bt_sneak=1}] run function blocktuner:get_note
 tp @e[tag=bt_position] ~0.5 ~1 ~0.5
-
-#Hover text
-execute as @e[tag=bt_selected] at @s unless entity @e[tag=bt_indicator,distance=..0.5] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:[bt_indicator],Fire:32767s}
-
-#tag @e[tag=bt_position] remove bt_position
-kill @e[tag=bt_position]
+tag @e[tag=bt_position] remove bt_position
 
 #Exit recursion
 tag @p[tag=bt_recur_start] remove bt_recur_start

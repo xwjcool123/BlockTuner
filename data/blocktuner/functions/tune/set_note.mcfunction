@@ -27,9 +27,6 @@ execute if score @s _bt_note matches 22 at @e[tag=bt_pointer] run setblock ~ ~1 
 execute if score @s _bt_note matches 23 at @e[tag=bt_pointer] run setblock ~ ~1 ~ minecraft:note_block[note=23]
 execute if score @s _bt_note matches 24 at @e[tag=bt_pointer] run setblock ~ ~1 ~ minecraft:note_block[note=24]
 
-#Keep note
-execute at @e[tag=bt_pointer] run clone ~ ~ ~ ~ ~ ~ ~ ~1 ~ replace normal
-
 #Switch _bt_instr
 execute if score @s _bt_instr matches 0 at @e[tag=bt_pointer] run clone ~ ~-1 ~ ~ ~-1 ~ ~ ~ ~ replace normal
 execute if score @s _bt_instr matches 1 at @e[tag=bt_pointer] run setblock ~ ~ ~ minecraft:hay_block

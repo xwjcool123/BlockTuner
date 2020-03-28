@@ -5,6 +5,7 @@ A Minecraft data pack which helps you tune note blocks
 
 ## Supported minecraft versions | 兼容的Minecraft版本:
 * Java Edition 1.14.x
+* Java Edition 1.15.x
 
 **Works in both singleplayer and multiplayer mode.**
 

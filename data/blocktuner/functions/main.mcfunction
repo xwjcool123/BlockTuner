@@ -20,7 +20,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{title:"Ghost I
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:writable_book"}]},gamemode=!spectator] run tag @s add bt_recur_start
 
 #Detect noteblocks (recursive raycast)
-execute as @a[tag=bt_recur_start] at @s anchored feet positioned ^ ^ ^ run function blocktuner:recur
+execute as @a[tag=bt_recur_start] at @s anchored feet positioned ^ ^ ^ run function blocktuner:recur_start
 tag @s remove bt_recur_start
 
 #Hover text
@@ -37,3 +37,4 @@ execute as @a store result score @s _bt_scroll run data get entity @s SelectedIt
 #GC
 execute as @e[tag=bt_indicator] at @s unless entity @e[tag=bt_selected,distance=..0.5] run kill @s
 scoreboard players set @a _bt_sneak 0
+tag @a remove bt_recur_start

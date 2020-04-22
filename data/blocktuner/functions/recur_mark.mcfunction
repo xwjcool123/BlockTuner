@@ -2,7 +2,7 @@
 summon area_effect_cloud ~0.5 ~ ~0.5 {Tags:[bt_selected,bt_position],Particle:"minecraft:dust 1 1 1 0",Radius:0.5}
 
 #Store note block validity and position
-execute if block ~ ~1 ~ minecraft:air run scoreboard players set @p[tag=bt_recurring] _bt_valid 1
+execute if block ~ ~1 ~ #blocktuner:senza_sord run scoreboard players set @p[tag=bt_recurring] _bt_valid 1
 execute store result score @p[tag=bt_recurring,scores={_bt_sneak=1}] _bt_x run data get entity @e[tag=bt_position,limit=1] Pos[0]
 execute store result score @p[tag=bt_recurring,scores={_bt_sneak=1}] _bt_y run data get entity @e[tag=bt_position,limit=1] Pos[1]
 execute store result score @p[tag=bt_recurring,scores={_bt_sneak=1}] _bt_z run data get entity @e[tag=bt_position,limit=1] Pos[2]

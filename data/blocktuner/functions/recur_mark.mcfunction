@@ -1,5 +1,5 @@
 #Mark the block
-summon area_effect_cloud ~0.5 ~ ~0.5 {Tags:[bt_selected,bt_position],Particle:"minecraft:dust 1 1 1 0",Radius:0.5}
+summon area_effect_cloud ~0.5 ~ ~0.5 {Tags:[bt_selected,bt_position],Particle:"minecraft:dust 1 1 1 0",Radius:0.5f}
 
 #Store note block validity and position
 execute if block ~ ~1 ~ #blocktuner:senza_sord run scoreboard players set @p[tag=bt_recurring] _bt_valid 1

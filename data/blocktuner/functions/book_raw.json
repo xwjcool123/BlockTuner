@@ -1,265 +1,265 @@
 [{
-	"text": "\n\n§7▟█▇▅▃▟▙▃▅▇█▙\n§7▜▙▁▔▜▛▜▛▔▁▟▛\n\n"
+    "text": "\n\n§7▟█▇▅▃▟▙▃▅▇█▙\n§7▜▙▁▔▜▛▜▛▔▁▟▛\n\n"
 }, {
-	"text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
+    "text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
 }, {
-	"text": "§7▒§0▒§7▒§0▒§7▒§7▒"
+    "text": "§7▒§0▒§7▒§0▒§7▒§7▒"
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "F♯/G♭ §7[0]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 0"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "F♯/G♭ §7[0]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 0"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "G §7[1]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 1"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "G §7[1]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 1"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "G♯/A♭ §7[2]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 2"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "G♯/A♭ §7[2]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 2"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "A §7[3]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 3"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "A §7[3]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 3"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "A♯/B♭ §7[4]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 4"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "A♯/B♭ §7[4]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 4"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "B/C♭ §7[5]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 5"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "B/C♭ §7[5]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 5"
+    }
 }, {
-	"text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
+    "text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "C/B♯ §7[6]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 6"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "C/B♯ §7[6]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 6"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "C♯/D♭ §7[7]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 7"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "C♯/D♭ §7[7]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 7"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "D §7[8]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 8"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "D §7[8]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 8"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "D♯/E♭ §7[9]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 9"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "D♯/E♭ §7[9]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 9"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "E/F♭ §7[10]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 10"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "E/F♭ §7[10]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 10"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "F/E♯ §7[11]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 11"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "F/E♯ §7[11]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 11"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "F♯/G♭ §7[12]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 12"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "F♯/G♭ §7[12]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 12"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "G §7[13]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 13"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "G §7[13]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 13"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "G♯/A♭ §7[14]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 14"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "G♯/A♭ §7[14]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 14"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "A §7[15]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 15"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "A §7[15]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 15"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "A♯/B♭ §7[16]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 16"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "A♯/B♭ §7[16]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 16"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "B/C♭ §7[17]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 17"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "B/C♭ §7[17]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 17"
+    }
 }, {
-	"text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
+    "text": "\n§4▃▃▃▃▃▃▃▃▃▃▃▃\n"
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "C/B♯ §7[18]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 18"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "C/B♯ §7[18]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 18"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "C♯/D♭ §7[19]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 19"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "C♯/D♭ §7[19]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 19"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "D §7[20]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 20"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "D §7[20]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 20"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "D♯/E♭ §7[21]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 21"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "D♯/E♭ §7[21]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 21"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "E/F♭ §7[22]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 22"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "E/F♭ §7[22]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 22"
+    }
 }, {
-	"text": "§7█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "F/E♯ §7[23]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 23"
-	}
+    "text": "§7█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "F/E♯ §7[23]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 23"
+    }
 }, {
-	"text": "§0█",
-	"hoverEvent": {
-		"action": "show_text",
-		"value": "F♯/G♭ §7[24]"
-	},
-	"clickEvent": {
-		"action": "run_command",
-		"value": "/trigger _bt_note set 24"
-	}
+    "text": "§0█",
+    "hoverEvent": {
+        "action": "show_text",
+        "value": "F♯/G♭ §7[24]"
+    },
+    "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger _bt_note set 24"
+    }
 }, {
-	"text":"§7▒§0▒§7▒§0▒§7▒"
+    "text":"§7▒§0▒§7▒§0▒§7▒"
 }, {
-	"text":"§7▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▎▒"
+    "text":"§7▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▎▒"
 }]

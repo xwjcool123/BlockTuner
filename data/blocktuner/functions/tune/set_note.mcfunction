@@ -38,7 +38,7 @@ execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=cow
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=didgeridoo] run setblock ~ ~ ~ minecraft:pumpkin
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=flute] run setblock ~ ~ ~ minecraft:clay
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=guitar] run setblock ~ ~ ~ minecraft:white_wool
-execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=harp] run setblock ~ ~ ~ minecraft:air
+execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=harp] run setblock ~ ~ ~ minecraft:dirt
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=hat] run setblock ~ ~ ~ minecraft:glass
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=iron_xylophone] run setblock ~ ~ ~ minecraft:iron_block
 execute at @e[tag=bt_pointer] if block ~ ~ ~ minecraft:note_block[instrument=pling] run setblock ~ ~ ~ minecraft:glowstone

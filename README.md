@@ -1,7 +1,9 @@
-# BlockTuner
+# BlockTuner (Datapack, Deprecated)
 **by xwjcool**
 
 A Minecraft data pack which helps you tune note blocks
+
+This datapack will no longer be updated (likely). Please check out the fabric mod [here](https://github.com/xwjcool123/BlockTunerMod).
 
 ## Supported minecraft versions | 兼容的Minecraft版本:
 * Java Edition 1.14.x
